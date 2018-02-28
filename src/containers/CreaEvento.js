@@ -36,7 +36,7 @@ class CreaEvento extends Component{
        alert("Evento Creato")
      })
      .catch(error=>{this.props.actions.addEventFailed(error)});
-
+     this.props.navigate('MieiGruppi');
   }
 
 
